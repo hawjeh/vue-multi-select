@@ -6,7 +6,7 @@
 
 ::-webkit-scrollbar-track {
   border-radius: 10px;
-  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -444,22 +444,20 @@
   margin: .2rem 0 .15rem 0;
 }
 
-.tab-block {
-
-}
-
 .tab-item {
   margin-top: 0;
 }
 
 .tab .tab-item.active span, .tab .tab-item span.active {
-  border-bottom-color: #6E7991;
-  color: #6E7991;
+  border-bottom-color: #000000;
+  color: #000000;
+  opacity: 1;
 }
 
 .tab .tab-item span {
   border-bottom: .1rem solid transparent;
-  color: inherit;
+  color: #6E7991;
+  opacity: 0.6;
   display: block;
   margin: 0 .4rem 0 0;
   padding: .4rem .4rem .3rem .4rem;
